@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1-5</title>
+</head>
+<body align="center">
+    <div>
+        <h1>Ex1</h1>
+        <input type="number" id="quantidadeProduto" value="0">
+        <button id="adicionar" onclick="sum()">+</button>
+        <button id="subtrair" onclick="subtract()">-</button>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h1>Ex2</h1>
+        <input type="text" id="texto1">
+        <input type="text" id="texto2">
+        <button onclick="exchange()">Trocar</button>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h1>Ex3</h1>
+        <input type="text" id="telefone">
+        <button onclick="check()">Validar</button>
+        <p id="checkFormat"></p>
+    </div>
+    <br>
+    <br>
+    <div>
+        <h1>Ex4</h1>
+
+        <input type="text" id="numeroPessoas">
+
+        <input type="radio" id="noturno"
+        name="time" value="noturno">
+        <label for="noturno">Noturno</label>
+
+        <input type="radio" id="diurno"
+        name="time" value="noturno">
+        <label for="diurno">Diurno</label>
+
+        <button onclick="calculateValues()">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+    <br>
+    <br>
+    <div id="ex5">
+        <h1>Exercício 5</h1>
+        <input type="text" id="numeroAlunos">
+        <button onclick="generateResults()">Inserir Informações</button>
+        <div id="inputs"></div>
+        <br>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
